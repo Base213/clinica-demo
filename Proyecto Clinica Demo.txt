@@ -1,0 +1,20 @@
+Proyecto "Clinica Demo"
+
+Requisitos para iniciar proyecto: Tener instalado nodejs
+Repositorio : https://gitlab.com/arrobyte/clinica_demo.git
+MySQL : 45.236.130.134 / Usuario: user_db_test / Password: .PwdTest_2024* /DB: db_test
+URL Sitio : http://localhost:3000/
+
+Requisitos Frontend (Abrir consola, entrar al directorio "frontend" y ejecutar los siguientes comandos)
+
+npm install react-router-dom react-icons axios react-datetime moment react-select react-bootstrap bootstrap
+npm start
+
+Usuarios:
+base231 / 123456 (Administrador)
+usuario / 123456 (Cliente)
+
+Requisitos Backend (Abrir otra consola, entrar al directorio "backend" y ejecutar los siguientes comandos)
+
+npm install express mysql body-parser cors
+node server.js
